@@ -199,7 +199,7 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "C:\\Program Files (x86)\\Java\\jre1.8.0_301",
+                "home": "C:\\Program Files (x86)\\Java\\jre1.8.0_311",
                 "options": [
                     "-Duser.dir=C:\\Users\\ZGree\\OneDrive\\Documents\\RevatureProjects\\new\\p0\\project"
                 ]

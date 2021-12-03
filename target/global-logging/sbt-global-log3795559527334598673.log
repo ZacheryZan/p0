@@ -1,0 +1,49 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(;Test/compile; collectAnalyses, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Done event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(Test/compile, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@db9048, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"9","parents":[]},"eventTime":1634151716434,"message":"Compiling p0","dataKind":"compile-task","data":{"target":{"uri":"file:/C:/Users/ZGree/OneDrive/Documents/RevatureProjects/new/p0/#p0/Compile"}}})[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\ZGree\OneDrive\Documents\RevatureProjects\new\p0\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"compiling 1 Scala source to C:\\Users\\ZGree\\OneDrive\\Documents\\RevatureProjects\\new\\p0\\target\\scala-2.13\\classes ..."})[0m
+[0m[[0m[0mdebug[0m] [0m[0mUnhandled request received: shutdown: JsonRpcRequestMessage(2.0, ♨1, shutdown, null})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/ZGree/OneDrive/Documents/RevatureProjects/new/p0/src/main/scala/Main.scala"},"buildTarget":{"uri":"file:/C:/Users/ZGree/OneDrive/Documents/RevatureProjects/new/p0/#p0/Compile"},"diagnostics":[{"range":{"start":{"line":8,"character":7},"end":{"line":8,"character":8}},"severity":1,"source":"sbt","message":"reassignment to val"}],"reset":false})[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\ZGree\OneDrive\Documents\RevatureProjects\new\p0\src\main\scala\Main.scala:9:8: reassignment to val[0m
+[0m[[0m[31merror[0m] [0m[0m  file = Source.fromFile("Project0_BikeData.txt")[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"C:\\Users\\ZGree\\OneDrive\\Documents\\RevatureProjects\\new\\p0\\src\\main\\scala\\Main.scala:9:8: reassignment to val"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"  file = Source.fromFile(\"Project0_BikeData.txt\")"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"       ^"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/ZGree/OneDrive/Documents/RevatureProjects/new/p0/src/main/scala/Main.scala"},"buildTarget":{"uri":"file:/C:/Users/ZGree/OneDrive/Documents/RevatureProjects/new/p0/#p0/Compile"},"diagnostics":[{"range":{"start":{"line":9,"character":9},"end":{"line":9,"character":10}},"severity":1,"source":"sbt","message":"type mismatch;\n found   : Unit\n required: scala.io.BufferedSource"}],"reset":false})[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\ZGree\OneDrive\Documents\RevatureProjects\new\p0\src\main\scala\Main.scala:10:10: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Unit[0m
+[0m[[0m[31merror[0m] [0m[0m required: scala.io.BufferedSource[0m
+[0m[[0m[31merror[0m] [0m[0m  println(file.getLines)[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"C:\\Users\\ZGree\\OneDrive\\Documents\\RevatureProjects\\new\\p0\\src\\main\\scala\\Main.scala:10:10: type mismatch;\n found   : Unit\n required: scala.io.BufferedSource"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"  println(file.getLines)"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"         ^"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/ZGree/OneDrive/Documents/RevatureProjects/new/p0/src/main/scala/Main.scala"},"buildTarget":{"uri":"file:/C:/Users/ZGree/OneDrive/Documents/RevatureProjects/new/p0/#p0/Compile"},"diagnostics":[{"range":{"start":{"line":12,"character":42},"end":{"line":12,"character":43}},"severity":1,"source":"sbt","message":"type mismatch;\n found   : Unit\n required: scala.io.BufferedSource"}],"reset":false})[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\ZGree\OneDrive\Documents\RevatureProjects\new\p0\src\main\scala\Main.scala:13:43: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Unit[0m
+[0m[[0m[31merror[0m] [0m[0m required: scala.io.BufferedSource[0m
+[0m[[0m[31merror[0m] [0m[0m  case e: FileNotFoundException => println("Couldn't find that File.")[0m
+[0m[[0m[31merror[0m] [0m[0m                                          ^[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"C:\\Users\\ZGree\\OneDrive\\Documents\\RevatureProjects\\new\\p0\\src\\main\\scala\\Main.scala:13:43: type mismatch;\n found   : Unit\n required: scala.io.BufferedSource"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"  case e: FileNotFoundException => println(\"Couldn't find that File.\")"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"                                          ^"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/ZGree/OneDrive/Documents/RevatureProjects/new/p0/src/main/scala/Main.scala"},"buildTarget":{"uri":"file:/C:/Users/ZGree/OneDrive/Documents/RevatureProjects/new/p0/#p0/Compile"},"diagnostics":[{"range":{"start":{"line":13,"character":32},"end":{"line":13,"character":33}},"severity":1,"source":"sbt","message":"type mismatch;\n found   : Unit\n required: scala.io.BufferedSource"}],"reset":false})[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\ZGree\OneDrive\Documents\RevatureProjects\new\p0\src\main\scala\Main.scala:14:33: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Unit[0m
+[0m[[0m[31merror[0m] [0m[0m required: scala.io.BufferedSource[0m
+[0m[[0m[31merror[0m] [0m[0m  case e: IOException => println("Got an IOException")[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"C:\\Users\\ZGree\\OneDrive\\Documents\\RevatureProjects\\new\\p0\\src\\main\\scala\\Main.scala:14:33: type mismatch;\n found   : Unit\n required: scala.io.BufferedSource"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"  case e: IOException => println(\"Got an IOException\")"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"                                ^"})[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"four errors found"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/ZGree/OneDrive/Documents/RevatureProjects/new/p0/src/main/scala/Main.scala"},"buildTarget":{"uri":"file:/C:/Users/ZGree/OneDrive/Documents/RevatureProjects/new/p0/#p0/Compile"},"diagnostics":[{"range":{"start":{"line":8,"character":7},"end":{"line":8,"character":8}},"severity":1,"source":"sbt","message":"reassignment to val"},{"range":{"start":{"line":9,"character":9},"end":{"line":9,"character":10}},"severity":1,"source":"sbt","message":"type mismatch;\n found   : Unit\n required: scala.io.BufferedSource"},{"range":{"start":{"line":12,"character":42},"end":{"line":12,"character":43}},"severity":1,"source":"sbt","message":"type mismatch;\n found   : Unit\n required: scala.io.BufferedSource"},{"range":{"start":{"line":13,"character":32},"end":{"line":13,"character":33}},"severity":1,"source":"sbt","message":"type mismatch;\n found   : Unit\n required: scala.io.BufferedSource"}],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"9","parents":[]},"eventTime":1634151722475,"message":"Compiled p0","status":2,"dataKind":"compile-report","data":{"target":{"uri":"file:/C:/Users/ZGree/OneDrive/Documents/RevatureProjects/new/p0/#p0/Compile"},"errors":4,"warnings":0,"time":6041}})[0m

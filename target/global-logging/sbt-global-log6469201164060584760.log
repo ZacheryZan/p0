@@ -1,0 +1,11 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(collectAnalyses, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0mUnhandled notification received: initialized: JsonRpcNotificationMessage(2.0, initialized, {})[0m
+[0m[[0m[0mdebug[0m] [0m[0mUnhandled notification received: textDocument/didOpen: JsonRpcNotificationMessage(2.0, textDocument/didOpen, {"textDocument":{"uri":"file:///c%3A/Users/ZGree/OneDrive/Documents/RevatureProjects/new/p0/src/main/scala/Main.scala","languageId":"scala","version":1,"text":"import javax.annotation.Resource\r\nimport scala.io.BufferedSource\r\nobject Main extends App {\r\nimport scala.io.Source\r\nimport java.io.{FileNotFoundException, IOException}\r\n\r\ntry {\t\r\n  val file = Source.fromFile(\"Project0_BikeData.txt\")\r\n}\r\ncatch {\t\r\n  case e: FileNotFoundException => println(\"Couldn't find that File.\")\r\n  case e: IOException => println(\"Got an IOException\")\r\n}\r\n}"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / collectAnalyses[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@239337, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0manalysis location (C:\Users\ZGree\OneDrive\Documents\RevatureProjects\new\p0\target\scala-2.13\zinc\inc_compile_2.13.zip,true)[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 0 s, completed Oct 14, 2021 2:10:46 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Done event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m

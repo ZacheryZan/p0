@@ -1,0 +1,11 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(collectAnalyses, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0mUnhandled notification received: initialized: JsonRpcNotificationMessage(2.0, initialized, {})[0m
+[0m[[0m[0mdebug[0m] [0m[0mUnhandled notification received: textDocument/didOpen: JsonRpcNotificationMessage(2.0, textDocument/didOpen, {"textDocument":{"uri":"file:///c%3A/Users/ZGree/OneDrive/Documents/RevatureProjects/new/p0/src/main/scala/Main.scala","languageId":"scala","version":1,"text":"package example;\r\n\r\n\r\nimport scala.io.Source\r\nimport org.mongodb.scala._\r\nimport scala.io.StdIn.readChar\r\nimport scala.io.BufferedSource\r\n\r\nobject Main extends App {\r\n    var menuSelec = true\r\n    var actionSelec = '0'\r\n\r\n    val client: MongoClient = MongoClient()\r\n    val database: MongoDatabase = client.getDatabase(\"test\")\r\n    val collection: MongoCollection[Document] = database.getCollection(\"test\")\r\n    Thread.sleep(5000)\r\n    print(\"(m)Menu\\n(q)Quit\\n\")\r\n    menuSelec = (readChar() == 'm')\r\n    while(menuSelec)\r\n    {\r\n        print(\"(1)Rent\\n(2)Return\\n\")\r\n        readChar() match \r\n            {\r\n                case '1' =>\r\n                case '2' =>\r\n            }\r\n        print(\"(m)Menu\\n(q)Quit\\n\")\r\n        menuSelec = (readChar() == 'm')\r\n    }\r\n    //client.close()\r\n}"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / collectAnalyses[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@864536, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0manalysis location (C:\Users\ZGree\OneDrive\Documents\RevatureProjects\new\p0\target\scala-2.13\zinc\inc_compile_2.13.zip,true)[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 0 s, completed Oct 16, 2021 8:29:30 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Done event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m

@@ -1,0 +1,43 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(a18485de-2a92-43bd-8658-9867f969dbe3), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@4abc5, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"8","parents":[]},"eventTime":1634151106405,"message":"Compiling p0","dataKind":"compile-task","data":{"target":{"uri":"file:/C:/Users/ZGree/OneDrive/Documents/RevatureProjects/new/p0/#p0/Compile"}}})[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\ZGree\OneDrive\Documents\RevatureProjects\new\p0\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"compiling 1 Scala source to C:\\Users\\ZGree\\OneDrive\\Documents\\RevatureProjects\\new\\p0\\target\\scala-2.13\\classes ..."})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/ZGree/OneDrive/Documents/RevatureProjects/new/p0/src/main/scala/Main.scala"},"buildTarget":{"uri":"file:/C:/Users/ZGree/OneDrive/Documents/RevatureProjects/new/p0/#p0/Compile"},"diagnostics":[{"range":{"start":{"line":5,"character":0},"end":{"line":5,"character":4}},"severity":1,"source":"sbt","message":"only traits and abstract classes can have declared but undefined members"}],"reset":false})[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\ZGree\OneDrive\Documents\RevatureProjects\new\p0\src\main\scala\Main.scala:6:5: only traits and abstract classes can have declared but undefined members[0m
+[0m[[0m[31merror[0m] [0m[0mval file:Resource[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"C:\\Users\\ZGree\\OneDrive\\Documents\\RevatureProjects\\new\\p0\\src\\main\\scala\\Main.scala:6:5: only traits and abstract classes can have declared but undefined members"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"val file:Resource"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"    ^"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/ZGree/OneDrive/Documents/RevatureProjects/new/p0/src/main/scala/Main.scala"},"buildTarget":{"uri":"file:/C:/Users/ZGree/OneDrive/Documents/RevatureProjects/new/p0/#p0/Compile"},"diagnostics":[{"range":{"start":{"line":7,"character":7},"end":{"line":7,"character":8}},"severity":1,"source":"sbt","message":"reassignment to val"}],"reset":false})[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\ZGree\OneDrive\Documents\RevatureProjects\new\p0\src\main\scala\Main.scala:8:8: reassignment to val[0m
+[0m[[0m[31merror[0m] [0m[0m  file = Source.fromFile("Project0_BikeData.txt")[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"C:\\Users\\ZGree\\OneDrive\\Documents\\RevatureProjects\\new\\p0\\src\\main\\scala\\Main.scala:8:8: reassignment to val"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"  file = Source.fromFile(\"Project0_BikeData.txt\")"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"       ^"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/ZGree/OneDrive/Documents/RevatureProjects/new/p0/src/main/scala/Main.scala"},"buildTarget":{"uri":"file:/C:/Users/ZGree/OneDrive/Documents/RevatureProjects/new/p0/#p0/Compile"},"diagnostics":[{"range":{"start":{"line":8,"character":15},"end":{"line":8,"character":16}},"severity":1,"source":"sbt","message":"value getLines is not a member of javax.annotation.Resource"}],"reset":false})[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\ZGree\OneDrive\Documents\RevatureProjects\new\p0\src\main\scala\Main.scala:9:16: value getLines is not a member of javax.annotation.Resource[0m
+[0m[[0m[31merror[0m] [0m[0m  println(file.getLines)[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"C:\\Users\\ZGree\\OneDrive\\Documents\\RevatureProjects\\new\\p0\\src\\main\\scala\\Main.scala:9:16: value getLines is not a member of javax.annotation.Resource"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"  println(file.getLines)"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"               ^"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/ZGree/OneDrive/Documents/RevatureProjects/new/p0/src/main/scala/Main.scala"},"buildTarget":{"uri":"file:/C:/Users/ZGree/OneDrive/Documents/RevatureProjects/new/p0/#p0/Compile"},"diagnostics":[{"range":{"start":{"line":14,"character":5},"end":{"line":14,"character":6}},"severity":1,"source":"sbt","message":"value close is not a member of javax.annotation.Resource"}],"reset":false})[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\ZGree\OneDrive\Documents\RevatureProjects\new\p0\src\main\scala\Main.scala:15:6: value close is not a member of javax.annotation.Resource[0m
+[0m[[0m[31merror[0m] [0m[0mfile.close()[0m
+[0m[[0m[31merror[0m] [0m[0m     ^[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"C:\\Users\\ZGree\\OneDrive\\Documents\\RevatureProjects\\new\\p0\\src\\main\\scala\\Main.scala:15:6: value close is not a member of javax.annotation.Resource"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"file.close()"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"     ^"})[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"four errors found"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/ZGree/OneDrive/Documents/RevatureProjects/new/p0/src/main/scala/Main.scala"},"buildTarget":{"uri":"file:/C:/Users/ZGree/OneDrive/Documents/RevatureProjects/new/p0/#p0/Compile"},"diagnostics":[{"range":{"start":{"line":5,"character":0},"end":{"line":5,"character":4}},"severity":1,"source":"sbt","message":"only traits and abstract classes can have declared but undefined members"},{"range":{"start":{"line":7,"character":7},"end":{"line":7,"character":8}},"severity":1,"source":"sbt","message":"reassignment to val"},{"range":{"start":{"line":8,"character":15},"end":{"line":8,"character":16}},"severity":1,"source":"sbt","message":"value getLines is not a member of javax.annotation.Resource"},{"range":{"start":{"line":14,"character":5},"end":{"line":14,"character":6}},"severity":1,"source":"sbt","message":"value close is not a member of javax.annotation.Resource"}],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"8","parents":[]},"eventTime":1634151108124,"message":"Compiled p0","status":2,"dataKind":"compile-report","data":{"target":{"uri":"file:/C:/Users/ZGree/OneDrive/Documents/RevatureProjects/new/p0/#p0/Compile"},"errors":4,"warnings":0,"time":1719}})[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"(Compile / \u001b[31mcompileIncremental\u001b[0m) Compilation failed"})[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 2 s, completed Oct 13, 2021 1:51:48 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m

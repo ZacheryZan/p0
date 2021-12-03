@@ -1,0 +1,17 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(22f12297-17ca-4970-aa30-55e403932a19), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@1dc782d, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"9","parents":[]},"eventTime":1634169038122,"message":"Compiling p0","dataKind":"compile-task","data":{"target":{"uri":"file:/C:/Users/ZGree/OneDrive/Documents/RevatureProjects/new/p0/#p0/Compile"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/ZGree/OneDrive/Documents/RevatureProjects/new/p0/src/main/scala/Main.scala"},"buildTarget":{"uri":"file:/C:/Users/ZGree/OneDrive/Documents/RevatureProjects/new/p0/#p0/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"9","parents":[]},"eventTime":1634169038139,"message":"Compiled p0","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/C:/Users/ZGree/OneDrive/Documents/RevatureProjects/new/p0/#p0/Compile"},"errors":0,"warnings":0,"time":17}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"running Main "})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"Waiting for threads to exit or System.exit to be called."})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"Waiting for thread run-main-2 to terminate."})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"  Classpath:\n\tC:\\Users\\ZGree\\OneDrive\\Documents\\RevatureProjects\\new\\p0\\target\\bg-jobs\\sbt_838cb03a\\job-3\\target\\626c2eed\\e99016f9\\hello-world_2.13-1.0.jar\n\tC:\\Users\\ZGree\\OneDrive\\Documents\\RevatureProjects\\new\\p0\\target\\bg-jobs\\sbt_838cb03a\\target\\ca16c861\\37851899\\scala-library-2.13.3.jar\n\tC:\\Users\\ZGree\\OneDrive\\Documents\\RevatureProjects\\new\\p0\\target\\bg-jobs\\sbt_838cb03a\\target\\7c834139\\de51ef4b\\scala-parser-combinators_2.13-1.1.2.jar"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"\tThread run-main-2 exited."})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"Interrupting remaining threads (should be all daemons)."})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"Sandboxed run complete.."})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"Exited with code 0"})[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 0 s, completed Oct 13, 2021 6:50:38 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mUnhandled request received: shutdown: JsonRpcRequestMessage(2.0, ♨1, shutdown, null})[0m

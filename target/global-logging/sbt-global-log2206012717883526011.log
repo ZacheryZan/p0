@@ -1,0 +1,27 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(;Test/compile; collectAnalyses, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Done event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(Test/compile, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@10212cb, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"64","parents":[]},"eventTime":1634703996875,"message":"Compiling p0","dataKind":"compile-task","data":{"target":{"uri":"file:/C:/Users/ZGree/OneDrive/Documents/RevatureProjects/new/p0/#p0/Compile"}}})[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\ZGree\OneDrive\Documents\RevatureProjects\new\p0\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"compiling 1 Scala source to C:\\Users\\ZGree\\OneDrive\\Documents\\RevatureProjects\\new\\p0\\target\\scala-2.13\\classes ..."})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/ZGree/OneDrive/Documents/RevatureProjects/new/p0/src/main/scala/Main.scala"},"buildTarget":{"uri":"file:/C:/Users/ZGree/OneDrive/Documents/RevatureProjects/new/p0/#p0/Compile"},"diagnostics":[{"range":{"start":{"line":39,"character":28},"end":{"line":39,"character":29}},"severity":1,"source":"sbt","message":"value printHeadResults is not a member of org.mongodb.scala.SingleObservable[org.mongodb.scala.Document]"}],"reset":false})[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\ZGree\OneDrive\Documents\RevatureProjects\new\p0\src\main\scala\Main.scala:40:29: value printHeadResults is not a member of org.mongodb.scala.SingleObservable[org.mongodb.scala.Document][0m
+[0m[[0m[31merror[0m] [0m[0m    collection.find().first.printHeadResults()[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"C:\\Users\\ZGree\\OneDrive\\Documents\\RevatureProjects\\new\\p0\\src\\main\\scala\\Main.scala:40:29: value printHeadResults is not a member of org.mongodb.scala.SingleObservable[org.mongodb.scala.Document]"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"    collection.find().first.printHeadResults()"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"                            ^"})[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"one error found"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/ZGree/OneDrive/Documents/RevatureProjects/new/p0/src/main/scala/Main.scala"},"buildTarget":{"uri":"file:/C:/Users/ZGree/OneDrive/Documents/RevatureProjects/new/p0/#p0/Compile"},"diagnostics":[{"range":{"start":{"line":39,"character":28},"end":{"line":39,"character":29}},"severity":1,"source":"sbt","message":"value printHeadResults is not a member of org.mongodb.scala.SingleObservable[org.mongodb.scala.Document]"}],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"64","parents":[]},"eventTime":1634703997975,"message":"Compiled p0","status":2,"dataKind":"compile-report","data":{"target":{"uri":"file:/C:/Users/ZGree/OneDrive/Documents/RevatureProjects/new/p0/#p0/Compile"},"errors":1,"warnings":0,"time":1100}})[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched json error for requestId None: {"code":-32603,"message":"(Compile / \u001b[31mcompileIncremental\u001b[0m) Compilation failed"}[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"(Compile / \u001b[31mcompileIncremental\u001b[0m) Compilation failed"})[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed Oct 19, 2021 11:26:38 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Done event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
